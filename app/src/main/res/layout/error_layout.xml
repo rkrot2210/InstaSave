@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageError"
+            android:layout_width="match_parent"
+            android:layout_height="1059dp"
+            android:layout_weight="0.6"
+
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/error" />
+
+        <TextView
+            android:id="@+id/textError"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="     Please, enter url or name of instagram account, what you want get data!!!"
+            android:textAlignment="gravity"
+            android:textColor="#4A1F2C"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</RelativeLayout>

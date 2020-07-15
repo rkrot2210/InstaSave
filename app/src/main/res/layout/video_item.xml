@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/previerImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageViewMP"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@id/previerImageView"
+            app:srcCompat="@drawable/ic_volume_up_grey_24dp" />
+</RelativeLayout>
